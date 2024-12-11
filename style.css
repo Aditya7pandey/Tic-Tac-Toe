@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.playbox{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px ;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(84, 178, 156);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.box{
+    background-color: rgb(223, 223, 96);
+    border: none;
+    margin:3px;
+    border-radius: 15px;
+    font-size: 2rem;
+}
+
+#reset{
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    border: none;
+    background-color: black;
+    color:white;
+    font-size: 1rem;
+}
+
+#newGame{
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    border: none;   
+    background-color: black;
+    color:white;
+    font-size: 1rem;
+}
+
+.para{
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    margin:50px;
+}
+
+.win_msg{
+    margin-top: 20px;
+}
+
+.container{
+    margin:30px;
+
+}
+
+#msg{
+    margin-bottom: 20px;    
+}
+
+.hide{
+    display: none;
+}
